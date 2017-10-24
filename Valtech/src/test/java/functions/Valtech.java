@@ -54,7 +54,7 @@ public class Valtech {
         contact.click();
 
         List<WebElement> totallinks=driver.findElements(By.xpath("//div[@class='contactbody']"));
-        int TotalOffices=totallinks.size();
+        System.out.println("Total number of offices are: "+int TotalOffices=totallinks.size()); 
 
     }
 
